@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -21,14 +25,14 @@
 .my-logo {
   position: absolute;
   top: 40px;
-  left: 60px;
-  color: aliceblue;
-  font-weight: 400;
+  left: 35px;
+  color: white;
+  font-family: roboto;
 }
 .name-box {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 57%;
   width: 375px;
   font-weight: 400;
   transform: translate(-50%, -50%);
@@ -36,6 +40,7 @@
 
 .main-heading {
   color: #ff6b00;
+  font-family: crete Round;
 }
 .heading-top {
   display: block;
@@ -50,6 +55,7 @@
   width: 327px;
   left: 24px;
   top: 256px;
+  font-family: roboto;
 }
 .bio {
   color: #ffffff;
@@ -58,12 +64,16 @@
 .bio-description {
   display: block;
   width: 325px;
+  font-family: poppins;
 }
 .icons {
   padding: 15px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 245px;
+  align-items: stretch;
+  margin-top: 13px;
+  margin-right: 7px;
 }
 .bg-image {
   position: absolute;
