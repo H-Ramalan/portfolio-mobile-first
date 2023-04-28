@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-bar {
+  background-color: #3c3a39;
+  height: 95px;
+}
+.header {
+  height: 100vh;
+  background-color: #1c1a19;
+  position: relative;
+  line-height: 1.2;
+}
+.ham-icon {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+}
+.my-logo {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+  color: aliceblue;
+  font-weight: 400;
+}
+.name-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 375px;
+  font-weight: 400;
+  transform: translate(-50%, -50%);
+}
+
+.main-heading {
+  color: #ff6b00;
+}
+.heading-top {
+  display: block;
+}
+.heading-bottom {
+  display: block;
+}
+.i-am-dev {
+  color: #ffffff;
+  margin: 15px 0;
+  height: 27px;
+  width: 327px;
+  left: 24px;
+  top: 256px;
+}
+.bio {
+  color: #ffffff;
+  line-height: 1.4;
+}
+.bio-description {
+  display: block;
+  width: 325px;
+}
+.icons {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 245px;
+}
+.bg-image {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
