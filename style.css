@@ -9,39 +9,49 @@
 }
 
 .nav-bar {
-  background-color: #3c3a39;
-  height: 95px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header {
-  height: 100vh;
+  height: 15%;
   background-color: #1c1a19;
-  position: relative;
-  line-height: 1.2;
-  background-image: url(../portfolio-mobile-first/icons/Illustration.png);
+
+  width: 100%;
+
+  position: fixed;
 }
 
 .ham-icon {
-  position: absolute;
-  top: 40px;
-  right: 60px;
+  width: 18px;
+  height: 12px;
+  cursor: pointer;
 }
 
-.logo-box {
-  position: absolute;
-  top: 40px;
-  left: 35px;
+.my-logo {
+  text-decoration: none;
   color: #fff;
   font-family: "Roboto", sans-serif;
 }
 
+.main {
+  background-image: url(../portfolio-mobile-first/icons/Illustration.png);
+  background-position: right bottom;
+  display: grid;
+  place-items: center;
+  margin-top: 60px;
+  padding: 30px;
+  width: 60px;
+  background-color: #212121;
+}
+
 .name-box {
-  position: absolute;
+  /* position: relative;
   top: 50%;
-  left: 55%;
-  font-weight: 400;
+  left: 50%;
   transform: translate(-50%, -50%);
-  margin: 75px 30px;
+  margin-top: 20%;
+  padding: 30px; */
 }
 
 .main-heading {
@@ -58,7 +68,7 @@
   display: block;
 }
 
-.i-am-dev {
+/* .i-am-dev {
   color: #fff;
   margin: 15px 0;
   height: 27px;
@@ -66,16 +76,16 @@
   left: 24px;
   top: 256px;
   font-family: "Roboto", sans-serif;
-}
+} */
 
 .bio {
+  width: 60px;
   color: #fff;
   line-height: 1.4;
 }
 
 .bio-description {
-  display: block;
-  width: 80%;
+  width: 50%;
   font-family: "Poppins", sans-serif;
   line-height: 2;
 }
@@ -83,17 +93,10 @@
 .icons {
   padding: 15px 0;
   display: flex;
-  justify-content: space-evenly;
-  width: 245px;
+  width: 55%;
   align-items: stretch;
-  margin-top: 13px;
-  margin-right: 7px;
-}
-
-.bg-image {
-  position: absolute;
-  right: 1px;
-  bottom: 1px;
+  justify-content: space-evenly;
+  align-items: stretch;
 }
 
 .recent-work-box {
