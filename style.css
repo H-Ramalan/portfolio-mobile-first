@@ -127,6 +127,7 @@ header {
 .projects-done {
   margin-top: 30px;
   background-image: url(./icons/Img-Placeholder.svg);
+  width: 80%;
   background-repeat: no-repeat;
   width: 80%;
   height: 70%;
@@ -146,9 +147,10 @@ header {
   flex-direction: column;
   align-items: center;
   width: 100%;
-  justify-content: space-around;
+  justify-content: center;
   padding: 0 20px;
-  /* height: 100vh; */
+  height: 100vh;
+  align-items: flex-start;
 }
 
 .about-me-heading {
@@ -165,6 +167,7 @@ header {
   font-size: 16px;
   line-height: 24px;
   color: #f4f5f7;
+  margin-top: 30px;
 }
 
 .get-my-resume {
@@ -175,5 +178,84 @@ header {
   background-color: #ff6b00;
   color: #fff;
   padding: 15px;
-  margin: 20px;
+  margin-top: 20px;
+}
+
+.stacks {
+  border-top: 1px solid #fff;
+  padding: 30px 0;
+  margin: 60px 0;
+  display: grid;
+  justify-items: center;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+  color: #fff;
+}
+ul.list {
+  display: grid;
+  justify-items: center;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  list-style: none;
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  margin: 20px 0;
+}
+.form {
+  background-color: #fff;
+  display: grid;
+  height: 100vh;
+  align-content: space-around;
+  justify-items: center;
+}
+
+.form-note {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  outline: none;
+  width: 80%;
+  border-bottom: 1px solid;
+  padding: 15px;
+}
+
+.get-in-touch {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px;
+}
+input {
+  display: block;
+}
+.footer-icons {
+  display: flex;
+  border-top: 1px solid #dfe1e6;
+  color: #505f79;
+  list-style: none;
+  align-items: stretch;
+  justify-content: space-evenly;
+  width: 60%;
+  justify-items: center;
+  padding: 20px;
+  justify-items: center;
+}
+
+footer {
+  background-color: #fff;
 }
