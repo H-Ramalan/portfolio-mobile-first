@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -88,4 +88,92 @@ header {
   justify-content: space-evenly;
   list-style: none;
   width: 60%;
+}
+
+.projects {
+  margin-top: 50px;
+  padding: 20px;
+  width: 80%;
+}
+
+.recent-project-img {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.recent-project-tech {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.recent-project-tech-used {
+  border: 1px solid #8993a4;
+  padding: 8px;
+}
+
+.see-recent-project {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px;
+  margin-top: 15px;
+}
+
+.recent-project-note {
+  margin-bottom: 20px;
+}
+
+.projects-done {
+  margin-top: 30px;
+  background-image: url(./icons/Img-Placeholder.svg);
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 70%;
+}
+
+.about-myself {
+  background-color: #1c1a19;
+}
+
+.about-me {
+  background: #1c1a19;
+  color: #fff;
+  background-image: url(./icons/Frame.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  padding: 0 20px;
+  /* height: 100vh; */
+}
+
+.about-me-heading {
+  font-family: "Crete Round", serif;
+  color: #ff6b00;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.about-me-note {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+}
+
+.get-my-resume {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 15px;
+  margin: 20px;
 }
