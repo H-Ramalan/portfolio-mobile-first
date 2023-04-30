@@ -154,6 +154,27 @@ header {
   border: none;
 }
 
+.see-recent-project:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+.see-recent-project:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.see-recent-project:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.see-recent-project:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
 .projects-done {
   margin-bottom: 20%;
   background-image: url(./icons/Img-Placeholder.svg);
@@ -271,28 +292,46 @@ header {
   margin-top: 20px;
 }
 
-.get-my-resume:hover {
+.get-my-resume:hover:enabled {
   color: #f55800;
   background-color: #fff5e1;
+  border: 2px solid #f55800;
 }
-.get-my-resume:active {
-  background-color: #e05304;
+.get-my-resume:active:enabled {
+  background-color: #f55800;
   color: #fff;
 }
-.get-my-resume:enabled {
-  color: #3d3c41;
+.get-my-resume:disabled {
+  color: #5b5957;
   background-color: #f4f1f0;
 }
 
-.get-my-resume:disabled {
-  color: #f55800;
-  background-color: #fff5e1;
+.get-my-resume:enabled {
+  color: #fff;
+  background-color: #f55800;
 }
 
-.see-project:hover {
+.see-project:hover:enabled {
   color: #f55800;
   background-color: #fff5e1;
+  border: 2px solid #f55800;
 }
+
+.see-project:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.see-project:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.see-project:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
 .stacks {
   padding: 30px 0;
   margin: 60px 0;
