@@ -92,9 +92,7 @@ header {
 }
 
 .projects {
-  margin-top: 50px;
-  padding: 20px;
-  width: 80%;
+  margin: 50px 10px 10px 10px;
 }
 
 .recent-project-name {
@@ -156,7 +154,18 @@ header {
   display: flex;
   flex-direction: column;
 }
-
+.project-title {
+  font-family: "Crete Round" serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+hr {
+  border-color: #dfe1e6;
+  margin-bottom: 20px;
+}
 .project-name {
   display: flex;
 }
@@ -181,15 +190,21 @@ header {
   font-size: 15px;
   font-weight: 500;
   line-height: 20px;
-  padding: 15px;
+  padding: 8px;
   margin: 10px 0;
   background-color: #505f79;
 }
 
 .see-project {
   background-color: #ff6b00;
-  padding: ;
-  width: 80%;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+
+.projects-card {
+  display: grid;
 }
 
 .about-myself {
@@ -209,6 +224,7 @@ header {
   justify-content: center;
   padding: 0 20px;
   height: 100vh;
+  margin-top: 50px;
 }
 
 .about-me-heading {
