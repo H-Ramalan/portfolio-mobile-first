@@ -92,7 +92,7 @@ header {
 }
 
 .projects {
-  margin: 50px 10px 10px 10px;
+  margin: 30% 10px 10px 10px;
 }
 
 .recent-project-name {
@@ -101,10 +101,21 @@ header {
   font-weight: 400;
   line-height: 44px;
   text-align: left;
+  margin: 15px 0;
+}
+
+.recent-project-img {
+  width: 100%;
+  margin-top: 15%;
+}
+.recent-project {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .name {
-  display: block;
   font-family: "Crete Round" serif;
   font-size: 32px;
   font-weight: 400;
@@ -124,21 +135,21 @@ header {
 
 .recent-project-tech {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin: 20px 0;
   list-style: none;
 }
 
 .recent-project-tech-used {
-  border: 1px solid #8993a4;
-  padding: 8px;
+  border: 1px solid #babfc9;
+  padding: 5px 12px;
 }
 
 .see-recent-project {
   background-color: #ff6b00;
   color: #fff;
-  padding: 10px;
-  margin-top: 15px;
+  padding: 10px 20px;
+  border: none;
 }
 
 .recent-project-note {
@@ -146,28 +157,24 @@ header {
 }
 
 .projects-done {
-  margin-top: 30px;
+  margin: 30px 0;
   background-image: url(./icons/Img-Placeholder.svg);
-  /* width: 100vh; */
+  height: 100%;
   background-repeat: no-repeat;
-  /* height: 70%; */
+  height: 100%;
   display: flex;
+  justify-content: flex-end;
   flex-direction: column;
+  background-size: cover;
+  width: 100%;
 }
-.project-title {
+.my-recent-work {
   font-family: "Crete Round" serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   margin-bottom: 20px;
-}
-hr {
-  border-color: #dfe1e6;
-  margin-bottom: 20px;
-}
-.project-name {
-  display: flex;
 }
 
 .project-note {
@@ -182,6 +189,8 @@ hr {
 .project-stack-used {
   display: flex;
   list-style: none;
+  width: 80%;
+  justify-content: space-around;
 }
 
 .tech-used {
@@ -192,7 +201,7 @@ hr {
   line-height: 20px;
   padding: 8px;
   margin: 10px 0;
-  background-color: #505f79;
+  background-color: #d1dbde63;
 }
 
 .see-project {
@@ -205,6 +214,7 @@ hr {
 
 .projects-card {
   display: grid;
+  margin: 30px 10px;
 }
 
 .about-myself {
@@ -256,7 +266,6 @@ hr {
 }
 
 .stacks {
-  border-top: 1px solid #fff;
   padding: 30px 0;
   margin: 60px 0;
   display: grid;
@@ -266,6 +275,17 @@ hr {
   font-weight: 700;
   line-height: 44px;
   color: #fff;
+}
+
+hr.stack {
+  margin: auto;
+  width: 80%;
+}
+
+hr.my-work {
+  margin: 30px auto;
+  width: 95%;
+  color: #141111;
 }
 
 ul.list {
@@ -279,7 +299,39 @@ ul.list {
   margin: 20px 0;
 }
 
-.form {
+li.languages {
+  list-style: none;
+}
+
+li.languages::before {
+  color: orange;
+  content: "\25AA";
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-right: 8px;
+}
+
+li.frameworks {
+  list-style: none;
+}
+
+li.frameworks::before {
+  color: orange;
+  content: "\25AA";
+  margin-right: 8px;
+}
+
+li.skills {
+  list-style: none;
+}
+
+li.skills::before {
+  color: orange;
+  margin-right: 8px;
+  content: "\25AA";
+}
+
+/* .form {
   background-color: #fff;
   display: flex;
   flex-direction: column;
@@ -338,5 +390,5 @@ textarea {
 
 footer {
   background-color: #fff;
-  height: 10%;
-}
+  height: 10
+} */
