@@ -2,6 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -96,9 +97,31 @@ header {
   width: 80%;
 }
 
-.recent-project-img {
-  margin-top: 50px;
-  margin-bottom: 25px;
+.recent-project-name {
+  font-family: "Crete Round" serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+}
+
+.name {
+  display: block;
+  font-family: "Crete Round" serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #fff;
+  text-align: left;
+}
+
+.recent-project-note {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #091e42;
 }
 
 .recent-project-tech {
@@ -127,10 +150,46 @@ header {
 .projects-done {
   margin-top: 30px;
   background-image: url(./icons/Img-Placeholder.svg);
-  width: 80%;
+  /* width: 100vh; */
   background-repeat: no-repeat;
+  /* height: 70%; */
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name {
+  display: flex;
+}
+
+.project-note {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+}
+
+.project-stack-used {
+  display: flex;
+  list-style: none;
+}
+
+.tech-used {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #505f79;
+}
+
+.see-project {
+  background-color: #ff6b00;
+  padding: ;
   width: 80%;
-  height: 70%;
 }
 
 .about-myself {
@@ -145,12 +204,11 @@ header {
   background-position: bottom right;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   width: 100%;
   justify-content: center;
   padding: 0 20px;
   height: 100vh;
-  align-items: flex-start;
 }
 
 .about-me-heading {
@@ -193,31 +251,29 @@ header {
   line-height: 44px;
   color: #fff;
 }
+
 ul.list {
   display: grid;
   justify-items: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 43px;
-  letter-spacing: 0em;
   list-style: none;
-  font-family: Inter;
-  font-size: 22px;
-  font-weight: 400;
-  line-height: 43px;
   margin: 20px 0;
 }
+
 .form {
   background-color: #fff;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   height: 100vh;
-  align-content: space-around;
-  justify-items: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .form-note {
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
@@ -228,21 +284,30 @@ ul.list {
 .inputs {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: flex-start;
   outline: none;
   width: 80%;
-  border-bottom: 1px solid;
+  border: none;
   padding: 15px;
 }
 
 .get-in-touch {
   background-color: #ff6b00;
   color: #fff;
-  padding: 10px;
+  padding: 15px;
 }
+
 input {
-  display: block;
+  display: inline;
+  padding: 20px 0;
+  margin: 20px 0;
 }
+textarea {
+  padding: 20px 0;
+  background-color: #fbf8f7;
+  height: 15%;
+}
+
 .footer-icons {
   display: flex;
   border-top: 1px solid #dfe1e6;
@@ -253,9 +318,9 @@ input {
   width: 60%;
   justify-items: center;
   padding: 20px;
-  justify-items: center;
 }
 
 footer {
   background-color: #fff;
+  height: 10%;
 }
