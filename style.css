@@ -96,7 +96,7 @@ header {
 }
 
 .recent-project-name {
-  font-family: "Crete Round" serif;
+  font-family: "Crete Round" sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -108,6 +108,7 @@ header {
   width: 100%;
   margin-top: 15%;
 }
+
 .recent-project {
   margin: 0 10px;
   display: flex;
@@ -116,7 +117,7 @@ header {
 }
 
 .name {
-  font-family: "Crete Round" serif;
+  font-family: "Crete Round" sans-serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
@@ -131,6 +132,7 @@ header {
   line-height: 24px;
   text-align: left;
   color: #091e42;
+  margin-bottom: 20px;
 }
 
 .recent-project-tech {
@@ -161,15 +163,15 @@ header {
   background-image: url(./icons/Img-Placeholder.svg);
   height: 100%;
   background-repeat: no-repeat;
-  height: 100%;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   background-size: cover;
   width: 100%;
 }
+
 .my-recent-work {
-  font-family: "Crete Round" serif;
+  font-family: "Crete Round" sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
