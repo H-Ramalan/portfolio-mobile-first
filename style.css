@@ -122,7 +122,7 @@ header {
   font-weight: 400;
   line-height: 44px;
   color: #fff;
-  text-align: left;
+  padding-left: 15px;
 }
 
 .recent-project-note {
@@ -155,7 +155,7 @@ header {
 }
 
 .projects-done {
-  margin: 30px 0;
+  margin-bottom: 20%;
   background-image: url(./icons/Img-Placeholder.svg);
   height: 100%;
   background-repeat: no-repeat;
@@ -164,6 +164,7 @@ header {
   flex-direction: column;
   background-size: cover;
   width: 100%;
+  padding: auto;
 }
 
 .my-recent-work {
@@ -182,6 +183,7 @@ header {
   line-height: 24px;
   text-align: left;
   color: #fff;
+  padding-left: 15px;
 }
 
 .project-stack-used {
@@ -208,6 +210,12 @@ header {
   width: 100%;
   text-align: center;
   color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  border: none;
 }
 
 .projects-card {
@@ -263,6 +271,28 @@ header {
   margin-top: 20px;
 }
 
+.get-my-resume:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
+.get-my-resume:active {
+  background-color: #e05304;
+  color: #fff;
+}
+.get-my-resume:enabled {
+  color: #3d3c41;
+  background-color: #f4f1f0;
+}
+
+.get-my-resume:disabled {
+  color: #f55800;
+  background-color: #fff5e1;
+}
+
+.see-project:hover {
+  color: #f55800;
+  background-color: #fff5e1;
+}
 .stacks {
   padding: 30px 0;
   margin: 60px 0;
@@ -328,65 +358,3 @@ li.skills::before {
   margin-right: 8px;
   content: "\25AA";
 }
-
-/* .form {
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  align-items: center;
-  justify-content: center;
-}
-
-.form-note {
-  font-family: "Inter", sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  color: #172b4d;
-  text-align: center;
-}
-
-.inputs {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  outline: none;
-  width: 80%;
-  border: none;
-  padding: 15px;
-}
-
-.get-in-touch {
-  background-color: #ff6b00;
-  color: #fff;
-  padding: 15px;
-}
-
-input {
-  display: inline;
-  padding: 20px 0;
-  margin: 20px 0;
-}
-textarea {
-  padding: 20px 0;
-  background-color: #fbf8f7;
-  height: 15%;
-}
-
-.footer-icons {
-  display: flex;
-  border-top: 1px solid #dfe1e6;
-  color: #505f79;
-  list-style: none;
-  align-items: stretch;
-  justify-content: space-evenly;
-  width: 60%;
-  justify-items: center;
-  padding: 20px;
-}
-
-footer {
-  background-color: #fff;
-  height: 10
-} */
