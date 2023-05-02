@@ -346,9 +346,6 @@ header {
   line-height: 44px;
   color: #fff;
   list-style: none;
-}
-
-.skills {
   text-align: center;
 }
 
@@ -394,12 +391,6 @@ h4.frameworks::before {
 
 li.frameworks {
   list-style: none;
-}
-
-h4.frameworks::before {
-  color: orange;
-  content: "\25AA";
-  margin-right: 8px;
 }
 
 li.skills {
