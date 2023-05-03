@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins&family=Roboto:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
 * {
   margin: 0;
@@ -88,4 +89,316 @@ header {
   justify-content: space-evenly;
   list-style: none;
   width: 60%;
+}
+
+.projects {
+  margin: 30% 10px 10px 10px;
+}
+
+.recent-project-name {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  text-align: left;
+  margin: 15px 0;
+}
+
+.recent-project-img {
+  width: 100%;
+  margin-top: 15%;
+}
+
+.recent-project {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.name {
+  font-family: "Crete Round", serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.recent-project-note {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #091e42;
+  margin-bottom: 20px;
+}
+
+.recent-project-tech {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  list-style: none;
+}
+
+.recent-project-tech-used {
+  border: 1px solid #babfc9;
+  padding: 5px 12px;
+}
+
+.see-recent-project {
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+}
+
+.see-recent-project:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.see-recent-project:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.see-recent-project:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+.see-recent-project:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.projects-done {
+  margin-bottom: 20%;
+  background-image: url(./icons/Img-Placeholder.svg);
+  height: 100%;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-size: cover;
+  width: 100%;
+  padding: auto;
+}
+
+.my-recent-work {
+  font-family: "Crete Round", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 20px;
+}
+
+.project-note {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.project-stack-used {
+  display: flex;
+  list-style: none;
+  width: 80%;
+  justify-content: space-around;
+}
+
+.tech-used {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 8px;
+  margin: 10px 0;
+  background-color: #d1dbde63;
+}
+
+.see-project {
+  background-color: #ff6b00;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.projects-card {
+  display: grid;
+  margin: 30px 10px;
+  gap: 25px;
+}
+
+.about-myself {
+  background-color: #1c1a19;
+}
+
+.about-me {
+  background: #1c1a19;
+  color: #fff;
+  background-image: url(./icons/Frame.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  justify-content: center;
+  padding: 0 20px;
+  height: 100vh;
+  margin-top: 50px;
+}
+
+.about-me-heading {
+  font-family: "Crete Round", serif;
+  color: #ff6b00;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 88px;
+}
+
+.about-me-note {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f4f5f7;
+  margin-top: 30px;
+}
+
+.get-my-resume {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  background-color: #ff6b00;
+  color: #fff;
+  padding: 15px;
+  margin-top: 20px;
+  border: none;
+}
+
+.get-my-resume:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.get-my-resume:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.get-my-resume:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+.get-my-resume:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.see-project:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.see-project:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.see-project:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+.see-project:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.stacks {
+  padding: 30px 0;
+  margin: 60px 0;
+  display: grid;
+  justify-items: center;
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 44px;
+  color: #fff;
+  list-style: none;
+  text-align: center;
+}
+
+hr.stack {
+  margin: auto;
+  width: 80%;
+}
+
+hr.my-work {
+  margin: 30px auto;
+  width: 95%;
+  color: #141111;
+}
+
+ul.list {
+  display: grid;
+  justify-items: center;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 43px;
+  list-style: none;
+  margin: 20px 0;
+}
+
+li.languages {
+  list-style: none;
+}
+
+li.languages::before {
+  color: orange;
+  content: "\25AA";
+  display: inline-block;
+  transform: rotate(45deg);
+  margin-right: 8px;
+}
+
+li.frameworks::before {
+  color: orange;
+  content: "\25AA";
+  margin-right: 8px;
+}
+
+li.frameworks {
+  list-style-type: none;
+}
+
+li.skills {
+  list-style: none;
+}
+
+li.skills::before {
+  color: orange;
+  margin-right: 8px;
+  content: "\25AA";
 }

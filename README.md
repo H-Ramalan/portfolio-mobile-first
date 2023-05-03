@@ -167,6 +167,6 @@ I would like to thank Microverse first of all, my coding partner, my morning ses
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT license](https://github.com/H-Ramalan/Portfolio-mobile-first/blob/development-branch/LICENSE.MD) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
