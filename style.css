@@ -375,7 +375,7 @@ li.languages {
   list-style: none;
 }
 
-h4.languages::before {
+li.languages::before {
   color: orange;
   content: "\25AA";
   display: inline-block;
@@ -383,21 +383,21 @@ h4.languages::before {
   margin-right: 8px;
 }
 
-h4.frameworks::before {
+li.frameworks::before {
   color: orange;
   content: "\25AA";
   margin-right: 8px;
 }
 
 li.frameworks {
-  list-style: none;
+  list-style-type: none;
 }
 
 li.skills {
   list-style: none;
 }
 
-h4.skills::before {
+li.skills::before {
   color: orange;
   margin-right: 8px;
   content: "\25AA";
