@@ -443,6 +443,7 @@ li.skills::before {
   line-height: 24px;
   width: 95%;
 }
+
 hr {
   margin: 0 0 20px 0;
   width: 95%;
@@ -461,6 +462,7 @@ hr {
   border: none;
   padding: 10px 0 0 10px;
 }
+
 .get-in-touch {
   background-color: #ff6b00;
   font-family: "Inter" sans-serif;
