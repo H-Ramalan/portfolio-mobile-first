@@ -403,7 +403,6 @@ li.skills::before {
   content: "\25AA";
 }
 
-
 /* This is contact form part for Mobile version */
 
 .contact-form {
@@ -424,7 +423,6 @@ li.skills::before {
   width: 95%;
 }
 .contact-note {
-  height: 40%;
   font-family: "Inter" sans-serif;
   font-size: 32px;
   font-weight: 700;
@@ -432,11 +430,12 @@ li.skills::before {
   color: #172b4d;
   text-align: center;
   width: 95%;
+  margin-top: 30%;
 }
 .input {
   outline: none;
   border: none;
-  padding: 20px;
+  padding: 20px 0 10px 5px;
   font-family: "Inter" sans-serif;
 
   font-size: 15px;
@@ -451,7 +450,7 @@ hr {
 
 .textarea {
   background-color: #fbf8f7;
-  height: 15%;
+  height: 20%;
   font-family: "Inter" sans-serif;
   font-size: 15px;
   font-style: italic;
@@ -459,6 +458,7 @@ hr {
   line-height: 24px;
   width: 95%;
   color: #1b1a19;
+  border: none;
   padding: 10px 0 0 10px;
 }
 .get-in-touch {
@@ -499,6 +499,14 @@ hr {
   display: flex;
   list-style: none;
   justify-content: center;
-  border-top: 1px solid black;
-  padding: 20px;
+  border-top: 1px solid #dfe1e6;
+  padding: 25px;
+}
+
+.footer-icons > li {
+  margin-right: 20px;
+}
+
+.footer-icons > li:last-of-type {
+  margin-right: 20px;
 }
