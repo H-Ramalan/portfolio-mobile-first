@@ -402,3 +402,103 @@ li.skills::before {
   margin-right: 8px;
   content: "\25AA";
 }
+
+
+/* This is contact form part for Mobile version */
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 80%;
+  margin: 50px 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+}
+.contact-note {
+  height: 40%;
+  font-family: "Inter" sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  color: #172b4d;
+  text-align: center;
+  width: 95%;
+}
+.input {
+  outline: none;
+  border: none;
+  padding: 20px;
+  font-family: "Inter" sans-serif;
+
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 95%;
+}
+hr {
+  margin: 0 0 20px 0;
+  width: 95%;
+}
+
+.textarea {
+  background-color: #fbf8f7;
+  height: 15%;
+  font-family: "Inter" sans-serif;
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24px;
+  width: 95%;
+  color: #1b1a19;
+  padding: 10px 0 0 10px;
+}
+.get-in-touch {
+  background-color: #ff6b00;
+  font-family: "Inter" sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 15px;
+  text-align: center;
+  border: none;
+  color: #fff;
+  margin: 20px;
+}
+
+.get-in-touch:enabled {
+  color: #fff;
+  background-color: #f55800;
+}
+
+.get-in-touch:disabled {
+  color: #5b5957;
+  background-color: #f4f1f0;
+}
+
+.get-in-touch:hover:enabled {
+  color: #f55800;
+  background-color: #fff5e1;
+  border: 2px solid #f55800;
+}
+
+.get-in-touch:active:enabled {
+  background-color: #f55800;
+  color: #fff;
+}
+
+.footer-icons {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  border-top: 1px solid black;
+  padding: 20px;
+}
