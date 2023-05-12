@@ -154,6 +154,13 @@ header {
   border: none;
 }
 
+.see-recent-project:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+  border: 2px solid #f55800;
+  transform: scale(1.2);
+}
+
 .see-recent-project:enabled {
   color: #fff;
   background-color: #f55800;
